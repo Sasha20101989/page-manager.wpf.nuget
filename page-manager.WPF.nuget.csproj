@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>PageManager.WPF</RootNamespace>
+	<UseWPF>true</UseWPF>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<AssemblyVersion>5.0.0.0</AssemblyVersion>
+	<FileVersion>5.0.0.0</FileVersion>
+	<Version>5.0.0</Version>
+	<PackageTags>WPF;Page</PackageTags>
+	<Product>PageManager.WPF</Product>
+	<Authors>Aleksander Felyugin</Authors>
+	<PackageId>PageManager.WPF</PackageId>
+	<PackageProjectUrl>http://10.135.130.163/itis/is/creuc/nuget-galery/nuget-library/page-manager.wpf.nuget</PackageProjectUrl>
+	<RepositoryUrl>http://10.135.130.163/itis/is/creuc/nuget-galery/nuget-library/page-manager.wpf.nuget</RepositoryUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Description>
+	 "PageManager" - библиотека, предоставляющая сервис для управления страницами приложения. 
+	 Этот сервис позволяет настраивать соответствие между ViewModel и соответствующей ему страницей, 
+	 а также получать тип страницы по ключу или саму страницу.
+	</Description>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
+  </ItemGroup>
+
+</Project>
